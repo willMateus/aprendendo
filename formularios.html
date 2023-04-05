@@ -7,12 +7,13 @@
     <title>Formulários</title>
 </head>
 <body>
+    <a href="index.html"> Voltar </a>
     <h1>Aprendendo formulários</h1>
     <table style="width:70%; margin: 0 auto">
     <tr>
         <td style="text-align:right">nome:</td>
         <td>
-            <input type="asdasd" name="nome:">
+            <input type="asdasd" name="nome:"">
         </td>
     </tr>
     <tr>
@@ -37,12 +38,37 @@
             </td>
         </tr>
         <tr>
-            <td style="text-align:right">nome:</td>
+            <td style="text-align:right"> UF nascimento</td>
             <td>
-                <input type="asdf" name="nome">
+                <select name="UF">
+                    <option selected disabled>Selecione...</option>
+                    <option>Acre</option>
+                    <option>Amapá</option>
+                    <option>Minas Gerais</option>
+                    <option>São Paulo</option>
+                    <option>Rondônia</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align:right">Hobby</td>
+            <td>
+            <input type="radio" name="hobby" value="jogos">jogos
+            &nbsp;&nbsp;
+            <input type="radio" name="hobby" value="esportes">esportes
+            &nbsp;&nbsp;
+            <input type="radio" name="hobby" value="musica"> música
+            </td>
+        <tr>
+            <td colsoan="2" style="text-align:right">
+                <input type="submit" name="Enviar">
+                <input type="reset" name="limpar">
+
+
             </td>
         </tr>
      </tr>
     </table>
+    
 </body>
 </html>
