@@ -1,0 +1,30 @@
+.display{
+    display: flex;
+}
+.column{
+    flex-direction: column;
+}
+.item1{
+    margin: 5px;
+    background: lightgrey;
+    text-align:left ;
+    font-size: 1.5em;
+}
+.item2{
+    margin: 5px;
+    background: lightgrey;
+    text-align: center;
+    font-size: 1em;
+}
+.item3{
+    margin: 5px;
+    padding: 0 100px;
+    background:lightgrey;
+    text-align: center;
+    font-size: 2em;
+}
+.container {
+    max-wight: 400px;
+    margin: 0 auto;
+    border: 1px solid #ccc;    
+}
