@@ -1,0 +1,16 @@
+@charset "UTF-8";
+*{
+font-family: arial;  
+}
+body{
+    background-image: linear-gradient(to top, #E3D8F1, #ffff);
+    background-attachment: fixed;
+    margin: auto;
+}
+h1{
+    font-size: 1cm;
+    text-align:center;
+    background: #241E4E;
+    color:#FFD046;
+    padding: 10px;
+}
