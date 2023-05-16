@@ -3,14 +3,40 @@
 font-family: arial;  
 }
 body{
-    background-image: linear-gradient(to top, #E3D8F1, #ffff);
-    background-attachment: fixed;
+    background-color: #b3e099;
+}
+
+h1 {
+    color: #242b41;
+    background-color: #028f76;
+    padding: 5px;
+    border-radius: 5px;
+}
+h2 {
+    color: #d14334;
+}
+main {
+    background-color: #ffeaad;
+    padding: 10px;
+    border-radius: 5px;
+    width: 800px;
     margin: auto;
 }
-h1{
-    font-size: 1cm;
-    text-align:center;
-    background: #241E4E;
-    color:#FFD046;
-    padding: 10px;
+
+div {
+    display: inline-block;
+    color: #1c2130;
+    background-color: #b3e099;
+    padding: 5px;
+    border-radius: 5px;
+    width: 200px;
 }
+div:hover {
+    background-color:#028f76;
+}
+iframe {
+    border-radius: 5px;
+}
+
+a {
+    color: #1c2130
