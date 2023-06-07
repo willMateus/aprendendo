@@ -3,7 +3,7 @@
 font-family: arial;  
 }
 body{
-    background-color: #d3d3d3;
+    background-color: #b3e099;
 }
 
 h1 {
@@ -16,27 +16,49 @@ h2 {
     color: #d14334;
 }
 main {
-    background-color: #ffeaad;
+    background-color: #cccccc;
     padding: 10px;
     border-radius: 5px;
-    width: 800px;
+    width: 1000px;
     margin: auto;
 }
-
-div {
-    display: inline-block;
+ a {
+    text-decoration: none;
+    color: #1c2130;
+ }
+.atividade{
     color: #1c2130;
     background-color: #b3e099;
     padding: 5px;
     border-radius: 5px;
     width: 200px;
+    margin-top: 5px;
 }
-div:hover {
+.atividade:hover {
     background-color:#028f76;
 }
 iframe {
     border-radius: 5px;
 }
+ img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+ }
+.botao-redes {
+    border: none;
+    background: none;
+    padding: 0;
+    width: 10px;
+    height: 10px;
+    border-radius: 20px;
+    text-align: center;
+    margin-right: 50px;
+}
 
-a {
-    color: #1c2130
+.botao-container {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    text-align: left;
+}
