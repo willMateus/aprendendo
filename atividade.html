@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validação</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        div {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>validando dados</h1>
+    
+        <form id="form1">
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="nome"><br><br>
+            <label for="sexo">Sexo:</label>
+            <select name="sexo" id="sexo"><br><br>
+                <option value="FM" selected disabled>Selecione...</option>
+                <option value="M">Masculino</option>
+                <option value="F">Feminino</option>
+            </select><br><br>
+            <label for="idade">Idade:</label>
+            <input type="number" name="idade" id="idade"><br><br>
+                <input type="submit" value="verificar" onclick="enviar()">
+                <input type="reset" value="Limpar">
+        </form>
+
+    <div id="resposta"></div>
+    <script>
+         function enviar() {
+            var sex = window.document.getElementById("sexo")
+            var res = window.document.getElementById("resposta")
+            var idade = windpw.document.getElementById("idade")
+            var idade = Number(idade)
+            if (idade == 19){
+                res.innerHTML = `<p>ACEITA</p>`
+            } else {
+                res.innerHTML = `<p>NÃO ACEITA</p>`
+            }
+        }
+    </script>
+</body>
+</html>
