@@ -5,133 +5,154 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inscrição</title>
+    <style>
+        body{
+            background-color: #000;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        main{
+            padding: 20px;
+            background-color: #fff;
+            width: 800px;
+            height: 100%;
+            margin: auto;
+            border-radius: 15px;
+        }
+
+        h1, h2, p{
+            text-align: center;
+        }
+    </style>
 
 </head>
 <body>
-    <a href="index.html">Voltar para a página inicial</a>
-    <h1>Formulário de Inscrição em evento</h1>
-
- <table>
-    <tr>
-        <td style="text-align:right">Nome Completo:</td>
-        <td>
-            <input type="text" name="Nome Completo:">
-        </td>
-    </tr>
-    <tr>
-        <td style="text-align:right">E-mail:</td>
-        <td>
-            <input type="email" name="E-mail"
-            placeholder="ex:seuemail@gmail.com">
-        </td>
-    </tr>
-    <tr>
-        <td style="text-align:right">Sexo:</td>
-        <td>
-            <input type="radio" name="Sexo" value="Masculino">Masculino
-            <input type="radio" name="Sexo" value="Feninino"> Feminino
-        </td>
-    </tr>
-    <tr>
-        <td style="text-align:right">Cargo:</td>
-        <td>
-            <input type="text" name="Cargo">
-        </td>
-    </tr>    
-    <tr>
-            <td style="text-align:right">Nascimento:</td>
+    <main>
+        <a href="index.html">Voltar para a página inicial</a>
+        <h1>Formulário de Inscrição em evento</h1>
+        
+         <table>
+        <tr>
+            <td style="text-align:right">Nome Completo:</td>
             <td>
-                <input type="date" name="nascimento">
+                <input type="text" name="Nome Completo:">
             </td>
-     </tr>
-     <tr>
-        <td style="text-align:right">Telefone</td>
-        <td>
-            <input type="tel" name="Telefone">
-        </td>
-     </tr>
- </table> 
- <h2>Informações da Instituição</h2> 
- <p>Preencha os campos abaixo com as informações da empresa em que trabalha.</p>
- <table>
-    <tr>
-        <td style="text-align:right">Empresa</td>
-        <td>
-            <input type="text" name="Empresa">
-        </td>
-    </tr>
-    <tr>
-        <td style="text-align:right">Endereço Completo:</td>
-        <td>
-            <input type="text" name="Endereço">
-        </td>
-     </tr>
-     <tr>
-        <td style="text-align:right">Cidade:</td>
-        <td>
-            <input type="text" name="Cidade">
-        </td>
-    </tr>
-    <tr>
-        <td style="text-align:right">Estado</td>
-        <td>
-            <select name="Estado">
-                <option selected disabled>Selecione...</option>
-                <option value="AC">Acre</option>
-                <option value="AL">Alagoas</option>
-                <option value="AP">Amapá</option>
-                <option value="AM">Amazonas</option>
-                <option value="BA">Bahia</option>
-                <option value="CE">Ceará</option>
-                <option value="DF">Distrito Federal</option>
-                <option value="ES">Espírito Santo</option>
-                <option value="GO">Goiás</option>
-                <option value="MA">Maranhão</option>
-                <option value="MT">Mato Grosso</option>
-                <option value="MS">Mato Grosso do SUl</option>
-                <option value="MG">Minas Gerais</option>
-                <option value="PA">Pará</option>
-                <option value="PB">Paraíba</option>
-                <option value="PR">Paraná</option>
-                <option value="PE">Pernanbuco</option>
-                <option value="PI">Piauí</option>
-                <option value="RJ">Rio de Janeiro</option>
-                <option value="RN">Rio Grande do Norte</option>
-                <option value="RS">Rio Grande do Sul</option>
-                <option value="RO">Rondônia</option>
-                <option value="RR">Roraima</option>
-                <option value="SC">Santa Catarina</option>
-                <option value="SP">São Paulo</option>
-                <option value="SE">Sergipe</option>
-                <option value="TO">Tocantins</option>
-            </select>
-        </td>
-    </tr>
-    <tr>
-        <td style="text-align:right">Quant. Funcionários:</td>
-        <td>
-            <input type="text" name="funcionários">
-        </td>
-    </tr>
-    <tr>
-        <td style="text-align:right">Observações</td>
-        <td>
-            <input type="text" name="Observações">
-        </td>
-    </tr>
- </table>
- <table>
-    <tr>
-        <td style="text-align:right">Recibo:</td>
-        <td>
-            <input type="checkbox" name="Recibo">Emitir em nome da instituição
-        </td>
-    </tr>
-    <tr>
-        <td>
-        <input type="submit" value="Fazer inscrição">
-        </td>
-    </tr>
- </table>
+        </tr>
+        <tr>
+            <td style="text-align:right">E-mail:</td>
+            <td>
+                <input type="email" name="E-mail"
+                placeholder="ex:seuemail@gmail.com">
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align:right">Sexo:</td>
+            <td>
+                <input type="radio" name="Sexo" value="Masculino">Masculino
+                <input type="radio" name="Sexo" value="Feninino"> Feminino
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align:right">Cargo:</td>
+            <td>
+                <input type="text" name="Cargo">
+            </td>
+        </tr>
+        <tr>
+                <td style="text-align:right">Nascimento:</td>
+                <td>
+                    <input type="date" name="nascimento">
+                </td>
+         </tr>
+         <tr>
+            <td style="text-align:right">Telefone</td>
+            <td>
+                <input type="tel" name="Telefone">
+            </td>
+         </tr>
+         </table> 
+         <h2>Informações da Instituição</h2> 
+         <p>Preencha os campos abaixo com as informações da empresa em que trabalha.</p>
+         <table>
+        <tr>
+            <td style="text-align:right">Empresa</td>
+            <td>
+                <input type="text" name="Empresa">
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align:right">Endereço Completo:</td>
+            <td>
+                <input type="text" name="Endereço">
+            </td>
+         </tr>
+         <tr>
+            <td style="text-align:right">Cidade:</td>
+            <td>
+                <input type="text" name="Cidade">
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align:right">Estado</td>
+            <td>
+                <select name="Estado">
+                    <option selected disabled>Selecione...</option>
+                    <option value="AC">Acre</option>
+                    <option value="AL">Alagoas</option>
+                    <option value="AP">Amapá</option>
+                    <option value="AM">Amazonas</option>
+                    <option value="BA">Bahia</option>
+                    <option value="CE">Ceará</option>
+                    <option value="DF">Distrito Federal</option>
+                    <option value="ES">Espírito Santo</option>
+                    <option value="GO">Goiás</option>
+                    <option value="MA">Maranhão</option>
+                    <option value="MT">Mato Grosso</option>
+                    <option value="MS">Mato Grosso do SUl</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="PA">Pará</option>
+                    <option value="PB">Paraíba</option>
+                    <option value="PR">Paraná</option>
+                    <option value="PE">Pernanbuco</option>
+                    <option value="PI">Piauí</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="RN">Rio Grande do Norte</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                    <option value="RO">Rondônia</option>
+                    <option value="RR">Roraima</option>
+                    <option value="SC">Santa Catarina</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="SE">Sergipe</option>
+                    <option value="TO">Tocantins</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align:right">Quant. Funcionários:</td>
+            <td>
+                <input type="text" name="funcionários">
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align:right">Observações</td>
+            <td>
+                <input type="text" name="Observações">
+            </td>
+        </tr>
+         </table>
+         <table>
+        <tr>
+            <td style="text-align:right">Recibo:</td>
+            <td>
+                <input type="checkbox" name="Recibo">Emitir em nome da instituição
+            </td>
+        </tr>
+        <tr>
+            <td>
+            <input type="submit" value="Fazer inscrição">
+            </td>
+        </tr>
+         </table>
+    </main>
 </body>
 </html>

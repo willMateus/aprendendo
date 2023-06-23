@@ -44,21 +44,18 @@ body {
 }
 
 .sobre {
+    margin: auto;
     display: inline-block;
     color: var(--cor-05);
-    margin-top: 70px;
     padding-left: 40px;
     height: auto;
     text-align: justify;
     margin-bottom: 100px;
+
 }
 
 .sobre p {
     width: 400px;
-}
-
-.imggato {
-    width: 300px;
 }
 
 .sobre h1 {
@@ -66,12 +63,15 @@ body {
     text-transform: uppercase;
     margin-bottom: 10px;
     color: #fff;
+    width: 450px;
 }
 
-.socorro {
-    background-color: #fff;
+.imagen{
     width: 300px;
     height: 300px;
+    display: inline-block;
+    background: url(/imagens/Cat\ astronaut-amico.png) center/cover;
+    margin-left: 40px;
 }
 
 .sobre h2 {

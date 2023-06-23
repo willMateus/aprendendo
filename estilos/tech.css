@@ -52,9 +52,14 @@ nav {
 }
 
 nav a {
+    padding: 5px;
     text-decoration: none;
     color: #fff;
     margin-right: 30px;
+}
+
+.menu a:hover{
+    background-color: #2fa866;
 }
 /*main*/
 main {
@@ -73,8 +78,17 @@ main h2 {
 img {
     width: 100%;
 }
+
 /*footer*/
 footer{
     background-color: #063d1e;
     color: #fff;
+}
+
+footer a {
+    color:aqua;
+}
+
+footer a:active{
+    color: red;
 }
