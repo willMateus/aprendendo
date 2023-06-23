@@ -1,9 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,700;1,300&family=Vidaloka&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,700;1,300&family=Rubik:wght@300;400;500&family=Vidaloka&display=swap');
 :root {
     --cor-01:#0e0b29;
-    --cor-02: #3b0032;
-    --cor-03: #7d2948;
+    --cor-02: #000000;
+    --cor-03: #1c0028;
     --cor-04: #ebc588;
     --cor-05: #ebeaa9;
 }
@@ -16,14 +15,18 @@
 
 body {
     font-family: "Roboto", sans-serif;
+    font-weight: 100;
     background-color: #0e0b29;
 }
 
 .topcontainer {
+    display: flex;
     background-color:var(--cor-03);
-    padding: 20px 0px 5px 10px;
+    padding: 20px 0px 5px 20px;
     text-transform: uppercase;
+    color: #fff;
 }
+
 
 .barranav {
     background-color: var(--cor-02);
@@ -41,23 +44,39 @@ body {
 }
 
 .sobre {
+    display: inline-block;
     color: var(--cor-05);
-    margin-top: 15%;
+    margin-top: 70px;
     padding-left: 40px;
-    width: 50%;
     height: auto;
     text-align: justify;
     margin-bottom: 100px;
 }
 
-.sobre h2 {
-    text-transform: uppercase;
-    margin-bottom: 10px;
+.sobre p {
+    width: 400px;
+}
+
+.imggato {
+    width: 300px;
 }
 
 .sobre h1 {
+    display: inline-block;
+    text-transform: uppercase;
     margin-bottom: 10px;
-    color:#fff
+    color: #fff;
+}
+
+.socorro {
+    background-color: #fff;
+    width: 300px;
+    height: 300px;
+}
+
+.sobre h2 {
+    margin-bottom: 10px;
+    color:#ffffff
 }
 .listali{
     background-color: #fff;
@@ -155,59 +174,53 @@ body {
     border-radius: 15px;
 }
 
-.linguagem {
-    background-color: ;
-}
-
-.links {
+#links {
     background-color: #0e0b29;
     color: var(--cor-05);
     margin: 20px;
     padding: 40px;
+    margin: auto;
+    text-align: center;
 }
 
-.links h3 {
+#links02 {
+    display: flex;
+    margin: auto;
+}
+
+#links h3 {
     color:#fff;
     font-size: 20pt;
     text-transform: uppercase;
     margin-bottom: 10px;
 }
 
-.links p {
+#links p {
     font-size: 18pt;
-    margin-bottom: 15px;
 }
-.links a {
-    font-weight: bold;
-    text-transform: uppercase;
-    display: inline-block;
+#links a {
     text-align: center;
+    font-weight: 300;
     width: 100px;
-    height: 100px;
-    margin-right: 20px;
+    display: inline-block;
+    background-color: #9c02b4;
+    padding: 5px;
+    margin: auto;
+    margin-right: 10px;
+    margin-top: 10px;
     text-decoration: none;
-    color: #000000;
-    border-radius: 15px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    color: #fff;
 }
 
-#card1 {
-    background: url(/imagens/Ariquemes_bandeira\ \(1\).jpg) center/cover;
+#links a:hover {
+    background-color: #fff;
+    color: #9c02b4;
 }
-
-#card2 {
-    font-size: 10pt;
-    background: url(/imagens/formularioimg.png) center/cover;
-}
-
-#card3 {
-    background: url(/imagens/android.png) center/cover;
-}
-
-#card4 {
-    background: url(/imagens/csslogo.png) center/cover;
-}
-
+ /* card github*/
 .content {
+    margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -248,4 +261,14 @@ body {
 
 .bottontext {
     margin-bottom: 10px;
+}
+
+/*footer*/
+
+.rodape{
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    
 }
